@@ -104,7 +104,7 @@ sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
 sudo chown $(id -u):$(id -g) $HOME/.kube/config
 ```
 
-CNI를 설치합니다.
+Container Network Interface (CNI)를 설치합니다.
 쿠버네티스 내부의 네트워크 설정을 전담하는 CNI는 여러 종류가 있으며, *모두의 MLOps*에서는 flannel을 사용합니다.
 
 ```text
