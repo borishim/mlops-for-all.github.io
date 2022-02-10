@@ -14,11 +14,10 @@ menu:
 
 ## Machine Learning Project
 
-2012년 Alexnet 이후 CV, NLP를 비롯하여 데이터가 존재하는 도메인이라면 어디서든 머신러닝과 딥러닝을 도입하고자 하였습니다.  
-딥러닝과 머신러닝은 AI라는 단어로 묶이며 불렸고 많은 매체에서 AI의 필요성을 외쳤습니다. 그리고 무수히 많은 기업에서 머신러닝과 딥러닝을 이용한 수많은 프로젝트를 진행하였습니다. 하지만 그 결과는 어떻게 되었을까요?  
-엘리먼트 AI의 음병찬 동북아 지역 총괄책임자는 [*"10개 기업에 AI 프로젝트를 시작한다면 그중 9개는 컨셉검증(POC)만 하다 끝난다"*](https://zdnet.co.kr/view/?no=20200611062002)고 말했습니다.
+Since AlexNet presented an exemplary performance on the classification of the ImageNet data in 2012, there has been growing interest in applying machine learning and deep learning for data analysis, especially in computer vision and natural language processing.
+These approaches utilizing machine learning were colloquially called AI. Many companies launched numerous projects to modernize their workflows by leveraging AI. However, progress has been underwhelming.
 
-이처럼 많은 프로젝트에서 머신러닝과 딥러닝은 이 문제를 풀 수 있을 것 같다는 가능성만을 보여주고 사라졌습니다. 그리고 이 시기쯤에 [AI에 다시 겨울](https://www.aifutures.org/2021/ai-winter-is-coming/)이 다가오고 있다는 전망도 나오기 시작했습니다.
+Many projects failed to fill the gap between proof-of-concept and production. Some even argued that [another AI winter is coming](https://www.aifutures.org/2021/ai-winter-is-coming/).
 
 왜 프로젝트 대부분이 컨셉검증(POC) 단계에서 끝났을까요?  
 머신러닝과 딥러닝 코드만으로는 실제 서비스를 운영할 수 없기 때문입니다.
