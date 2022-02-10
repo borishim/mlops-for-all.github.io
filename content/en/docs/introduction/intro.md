@@ -6,7 +6,7 @@ date: 2021-12-03
 lastmod: 2021-12-13
 draft: false
 weight: 101
-contributors: ["Jongseob Jeon"]
+contributors: ["Jongseob Jeon", "Sangwoo Shim"]
 menu:
   docs:
     parent: "introduction"
@@ -17,10 +17,9 @@ menu:
 Since AlexNet presented an exemplary performance on the classification of the ImageNet data in 2012, there has been growing interest in applying machine learning and deep learning for data analysis, especially in computer vision and natural language processing.
 These approaches utilizing machine learning were colloquially called AI. Many companies launched numerous projects to modernize their workflows by leveraging AI. However, progress has been underwhelming.
 
-Many projects failed to fill the gap between proof-of-concept and production. Some even argued that [another AI winter is coming](https://www.aifutures.org/2021/ai-winter-is-coming/).
+Many projects failed to fill the gap between proof-of-concept (PoC) and production. Some even argued that [another AI winter is coming](https://www.aifutures.org/2021/ai-winter-is-coming/).
 
-왜 프로젝트 대부분이 컨셉검증(POC) 단계에서 끝났을까요?  
-머신러닝과 딥러닝 코드만으로는 실제 서비스를 운영할 수 없기 때문입니다.
+Although machine learning codes are an essential part of the system, we also need many other software components for a successful operation. Difficulty in preparing these ‘other software components’ is one of the reasons why most machine learning projects cannot pass the PoC stage.
 
 실제 서비스 단계에서 머신러닝과 딥러닝의 코드가 차지하는 부분은 생각보다 크지 않기 때문에, 단순히 모델의 성능만이 아닌 다른 많은 부분을 고려해야 합니다.  
 구글은 이런 문제를 2015년 [Hidden Technical Debt in Machine Learning Systems](https://proceedings.neurips.cc/paper/2015/file/86df7dcfd896fcaf2674f757a2463eba-Paper.pdf)에서 지적한 바 있습니다.  
